@@ -3,12 +3,13 @@
   "version": "0.4.6",
   "description": "Grunt task to run a nodemon monitor of your node.js server",
   "main": "test/fixtures/server.js",
+  "private": false,
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/baladins/grunt-nodemon.git"
+    "url": "git+https://github.com/baladins/grunt-nodemon.git"
   },
   "keywords": [
     "gruntplugin",
@@ -31,5 +32,12 @@
   },
   "dependencies": {
     "nodemon": "^2.0.9"
+  },
+  "bugs": {
+    "url": "https://github.com/baladins/grunt-nodemon/issues"
+  },
+  "homepage": "https://github.com/baladins/grunt-nodemon#readme",
+  "directories": {
+    "test": "test"
   }
 }
