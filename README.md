@@ -2,7 +2,7 @@
 
 > Run [nodemon](https://github.com/remy/nodemon) as a grunt task for easy configuration and integration with the rest of your workflow
 
-[![NPM version](https://badge.fury.io/js/grunt-nodemon.png)](http://badge.fury.io/js/grunt-nodemon) [![Dependency Status](https://david-dm.org/ChrisWren/grunt-nodemon.png)](https://david-dm.org/ChrisWren/grunt-nodemon) [![Travis Status](https://travis-ci.org/ChrisWren/grunt-nodemon.png)](https://travis-ci.org/ChrisWren/grunt-nodemon)
+[![NPM version](https://badge.fury.io/js/baladins-grunt-nodemon.png)](http://badge.fury.io/js/baladins-grunt-nodemon) [![Travis Status](https://travis-ci.org/baladins/grunt-nodemon.png)](https://travis-ci.org/baladins/grunt-nodemon)
 
 ## Getting Started
 If you haven't used grunt before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a gruntfile as well as install and use grunt plugins. Once you're familiar with that process, install this plugin with this command:
@@ -195,6 +195,8 @@ Type: `String`
 You can use nodemon to execute a command outside of node. Use this option to specify a command as a string with the argument being the script parameter above. You can read more on exec [here](https://github.com/remy/nodemon#running-non-node-scripts).
 
 ## Changelog
+
+**0.4.6** - Updated peer dependencies.
 
 **0.4.3** - Updated to nodemon `1.18.10`, fix old tests. Switched to package grunt-markdownlint.
 
